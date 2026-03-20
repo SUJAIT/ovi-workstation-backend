@@ -15,8 +15,8 @@ const BKASH_APP_KEY = process.env.BKASH_APP_KEY || ""
 const BKASH_APP_SECRET = process.env.BKASH_APP_SECRET || ""
 const BKASH_USERNAME = process.env.BKASH_USERNAME || ""
 const BKASH_PASSWORD = process.env.BKASH_PASSWORD || ""
-const BACKEND_URL = process.env.BACKEND_URL || "http://localhost:5000"
-const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000"
+const BACKEND_URL = process.env.BACKEND_URL || "https://ovi-workstation-backend.onrender.com"
+const FRONTEND_URL = process.env.FRONTEND_URL || "https://ovi-client-avzas0je8-md-sujait-ullahs-projects.vercel.app"
 
 // ── Mock payment store (real DB এর বদলে memory) ───────────────────
 const mockPayments = new Map<string, { amount: number; userId: string; status: string; trxID?: string }>()
