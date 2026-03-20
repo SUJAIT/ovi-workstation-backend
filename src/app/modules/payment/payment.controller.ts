@@ -8,7 +8,7 @@ import { Payment } from "./payment.model"
 import { TransactionService } from "../transaction/transaction.service"
 import mongoose from "mongoose"
 
-const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000"
+const FRONTEND_URL = process.env.FRONTEND_URL || "https://ovi-client-avzas0je8-md-sujait-ullahs-projects.vercel.app"
 
 // ── Payment Create ────────────────────────────────────────────────
 const createPayment = async (req: Request, res: Response) => {

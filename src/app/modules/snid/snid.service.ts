@@ -9,7 +9,7 @@ const getSnidInfoFromApi = async (payload: {
 
     const { nid, dob } = payload
 
-    const url = `http://localhost:5000/example/exampleApi?nid=${nid}&dob=${dob}`
+    const url = `https://ovi-workstation-backend.onrender.com/example/exampleApi?nid=${nid}&dob=${dob}`
 
     const response = await axios.get(url)
 

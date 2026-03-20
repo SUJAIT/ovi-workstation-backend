@@ -1,6 +1,6 @@
 import { TransactionService } from "../transaction/transaction.service"
 
-const NID_API_URL = process.env.NID_API_URL || "http://localhost:5000/example/exampleApi"
+const NID_API_URL = process.env.NID_API_URL || "https://ovi-workstation-backend.onrender.com/example/exampleApi"
 
 export const ServerCopyService = {
 
