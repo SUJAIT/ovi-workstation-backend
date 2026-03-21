@@ -16,8 +16,8 @@ const createPayment = async (req: Request, res: Response) => {
     const user = (req as any).user
     const { amount } = req.body
 
-    if (!amount || amount < 10) {
-      res.status(400).json({ success: false, message: "সর্বনিম্ন ১০ টাকা recharge করুন" })
+    if (!amount || amount < 40) {
+      res.status(400).json({ success: false, message: "সর্বনিম্ন 40 টাকা recharge করুন" })
       return
     }
 
